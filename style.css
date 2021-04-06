@@ -99,7 +99,8 @@ button {
 }
 
 @media screen and (max-width: 720px) {
-  html {
+  html,
+  body {
     position: relative;
     overflow: scroll;
   }
@@ -107,13 +108,13 @@ button {
     display: flex;
     flex-direction: column;
     max-width: 500px;
-    height: 100%;
+    height: auto;
     margin: auto;
     margin-top: 65px;
   }
   .card {
     max-width: 320px;
-    height: 395px;
+    height: 475px;
     margin: auto;
   }
   .sedans {
@@ -122,21 +123,11 @@ button {
   .luxury {
     border-radius: 0 0 10px 10px;
   }
-  .sedans button {
-    background-color: white;
-    color: hsl(31, 77%, 52%);
-  }
-  .suv button {
-    background-color: white;
-    color: hsl(184, 100%, 22%);
-  }
-  .luxury button {
-    background-color: white;
-    color: hsl(179, 100%, 13%);
-  }
+
   .attribution {
     font-family: "Lexend Deca", sans-serif;
     margin-bottom: 10px;
     font-size: 12px;
+    margin-top: 45px;
   }
 }
